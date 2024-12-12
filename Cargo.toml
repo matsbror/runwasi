@@ -21,6 +21,11 @@ readme = "README.md"
 repository = "https://github.com/containerd/runwasi"
 homepage = "https://github.com/containerd/runwasi"
 
+[patch.crates-io]
+oci-spec = { path = "../oci-spec-rs" }
+containerd-shim-wasm = { path = "crates/containerd-shim-wasm" }
+oci-tar-builder = { path = "crates/oci-tar-builder" }
+
 [workspace.dependencies]
 anyhow = "1.0"
 cap-std = "1.0"

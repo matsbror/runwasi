@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768267471638,
+  "lastUpdate": 1768272950604,
   "repoUrl": "https://github.com/matsbror/runwasi",
   "entries": {
     "HTTP Throughput": [
@@ -36818,6 +36818,100 @@ window.BENCHMARK_DATA = {
             "value": 16.417209403074665,
             "unit": "tasks/s",
             "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 1m 911ms 691us 838ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "93753c7ec8b81aae0620ca77e2d1f22d0b905693",
+          "message": "chore(deps): bump lycheeverse/lychee-action from 2.4.1 to 2.5.0 (#1028)\n\nBumps [lycheeverse/lychee-action](https://github.com/lycheeverse/lychee-action) from 2.4.1 to 2.5.0.\n- [Release notes](https://github.com/lycheeverse/lychee-action/releases)\n- [Commits](https://github.com/lycheeverse/lychee-action/compare/82202e5e9c2f4ef1a55a3d02563e1cb6041e5332...5c4ee84814c983aa7164eaee476f014e53ff3963)\n\n---\nupdated-dependencies:\n- dependency-name: lycheeverse/lychee-action\n  dependency-version: 2.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-08-19T17:40:04Z",
+          "url": "https://github.com/matsbror/runwasi/commit/93753c7ec8b81aae0620ca77e2d1f22d0b905693"
+        },
+        "date": 1768272947436,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Stress Test Throughput with containerd service - wamr (app)",
+            "value": 1.1138331376680397,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 14m 57s 800ms 546us 762ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wasmedge (app)",
+            "value": 1.38122619900699,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 12m 3s 994ms 375us 953ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wasmer (app)",
+            "value": 1.2958012270930055,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 12m 51s 723ms 300us 682ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wasmtime (app)",
+            "value": 3.558872886898144,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 4m 40s 987ms 838us 504ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wamr (oci)",
+            "value": 1.0973838458384095,
+            "unit": "tasks/s",
+            "extra": "Image: oci\nTasks: 1000\nParallel: 4\nDuration: 15m 11s 258ms 174us 423ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wasmedge (oci)",
+            "value": 1.2787527429412093,
+            "unit": "tasks/s",
+            "extra": "Image: oci\nTasks: 1000\nParallel: 4\nDuration: 13m 2s 12ms 7us 810ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wasmer (oci)",
+            "value": 1.290651946673516,
+            "unit": "tasks/s",
+            "extra": "Image: oci\nTasks: 1000\nParallel: 4\nDuration: 12m 54s 802ms 225us 13ns"
+          },
+          {
+            "name": "Stress Test Throughput with containerd service - wasmtime (oci)",
+            "value": 4.238039560551023,
+            "unit": "tasks/s",
+            "extra": "Image: oci\nTasks: 1000\nParallel: 4\nDuration: 3m 55s 958ms 156us 56ns"
+          },
+          {
+            "name": "Stress Test Throughput with mock service - wamr (app)",
+            "value": 69.64348102992889,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 14s 358ms 845us 727ns"
+          },
+          {
+            "name": "Stress Test Throughput with mock service - wasmedge (app)",
+            "value": 67.03952702764157,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 14s 916ms 573us 18ns"
+          },
+          {
+            "name": "Stress Test Throughput with mock service - wasmer (app)",
+            "value": 15.372893916277533,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 1m 5s 49ms 560us 964ns"
+          },
+          {
+            "name": "Stress Test Throughput with mock service - wasmtime (app)",
+            "value": 15.332266547712614,
+            "unit": "tasks/s",
+            "extra": "Image: app\nTasks: 1000\nParallel: 4\nDuration: 1m 5s 221ms 928us 988ns"
           }
         ]
       }
